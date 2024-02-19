@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Epsilon 3 - Home</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="features.html">Features</a></li>
+                    <li>
+                        <a href="options.html">Options</a>
+                        <ul>
+                            <li><a href="options/mk1.html">MK-1</a></li>
+                            <li><a href="options/ep2.html">Epsilon 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="prices.html">Prices</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+            <div class="title-border1">
+                EPSILON<sub style="font-size:50px">3</sub>
+            </div>
+            
+        </header>
+
+        <section id="content">
+            <div class="content">
+                <h2>Take baking to new heights.</h2>
+            
+                <div class="slideshow-container">
+                    <div class="mySlides fade">
+                        
+                        <img src="images/Ep3_2.png" style="width:100%">
+                        
+                    </div>
+                    <div class="mySlides fade">
+                        
+                        <img src="images/Ep3_3.png" style="width:100%">
+                        
+                    </div>
+                    <div class="mySlides fade">
+                        
+                        <img src="images/Ep3_4.png" style="width:100%">
+                    
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095</a>
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+
+                <h2>Epsilon3 - MK 1</h2>
+                <ul>
+                    <li><a href="options/mk1.html">Learn More</a></li>
+                </ul>
+                <h2>Epsilon2</h2>
+                <ul>
+                    <li><a href="options/ep2.html">Learn More</a></li>
+                </ul>
+
+            </div>
+        </section>
+
+
+        <footer>
+            <div class="container">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="support.html">Support</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <script>
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
+            }
+        </script>
+    </body>
+</html>

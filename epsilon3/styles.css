@@ -1,0 +1,240 @@
+.title-border1 {
+    font-family: arial;
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.title-card{
+    text-align: center;
+    font-size: 100px;
+    color: #ffffff;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.title-card-sub{
+    font-size: 20px;
+    margin-bottom: -20px;
+    letter-spacing: 18px;
+    transform:translateX(4px);
+    color: #888888
+}
+
+
+.content {
+    padding-top: 10px;
+    
+}
+
+.block-container{
+    display: flex;
+}
+
+.block-left{
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.block-right{
+    flex: 1;
+    text-align: center;
+    padding:20px;
+}
+
+.center-header{
+
+    text-align: center;
+    
+}
+
+body {
+    font-family: arial;
+    padding: 5px;
+    margin: 5px;
+}
+
+.header-login{
+    text-align: center;
+}
+
+header {
+    background: #111010;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+
+header nav ul {
+    justify-content: left;
+    padding-bottom: 10px;
+}
+
+header nav ul ul {
+    display: none;
+    position: absolute;
+    padding-top: 7px;
+    justify-content: left;
+    transform: translateX(-10%)
+}
+
+header nav ul ul li a {
+    color: #333;
+    padding: 10px;
+    display: block;
+}
+header nav ul ul li a:hover {
+    background-color: #dddddd46;
+}
+header nav ul li:hover > ul{
+    display: block;
+}
+
+/* navigation */
+nav {
+    text-align: center;
+    position: relative;
+
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #c7c7c7;
+}
+
+.form-login{
+    text-align: center;
+}
+
+input[type=text], input[type=password]{
+    width: 400px;
+    padding: 10px 10px;
+    margin: 8px;
+    display: inline-block;
+    border: 2px solid #6d6d6da1;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #050505;
+    color: white;
+    padding: 6px 20px;
+    margin: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+    margin: 8px;
+}
+
+.forgot{
+    margin: 8px;
+}
+
+.forgot a:hover{
+    opacity: 0.8;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+.slideshow-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides{
+    display: none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+}
+
+.numberText{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover{
+    background-color: #717171;
+}
+
+.fade
+{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
+.side_image{
+    
+}
+
+footer {
+    background: #111010;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
