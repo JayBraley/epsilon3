@@ -1,1 +1,1 @@
-# epsilon3
+To enter the Epsilon3 website, click <a href="epsilon3/index.html">here</a>
