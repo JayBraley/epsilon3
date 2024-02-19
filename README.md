@@ -1,1 +1,1 @@
-To enter the Epsilon3 website, click <a href="epsilon3/index.html">here</a>
+To enter the Epsilon3 website, click <a href="https://jaybraley.github.io/epsilon3">here</a>
